@@ -8,12 +8,12 @@
 
 For this project, we will be using Natural Language Processing techniques to evaluate patient’s reviews and ratings of medical conditions and drugs. The data comes from UCI ML which contains over 160k reviews which was obtained by crawling online pharmaceutical review sites. Below is a sample of the data which has 0 to 10 ratings for a particular drug and condition as well as the comment left by the patient and the number of patients that found the drug useful.  
 
+EDA was performed to get a full understanding of the dataset. Then, Sentiment analysis was performed but results were unreliable. Therefore, feature engineering was performed to get accurate scores bases on the the patient's reviews and ratings.  An interactive app was created to allow the patient to select a medical condition and the app displays the top 5 medications for that particular medical condition based on the reviews and comments left from previous patients. 
 
 
 
 
-
-![alt text](Top_5_Drugs_by_Condition.png)
+![alt text](Top_5_Drugs_by_ConditionF.png)
 
 ![alt text](Medical_Choice_Options.png)
 
@@ -25,9 +25,11 @@ For this project, we will be using Natural Language Processing techniques to eva
 ### Design:
 
 
- A pipeline was built to collect the data and perform machine learning to predict if the transaction was fraud and deployed an app to show the results. 
+ The growth of the internet and technology over the past two decades have allowed many humans to learn something that was not possible 30 years ago. The access to online information is unimaginable and medical patients have greatly benefited by utilizing web platforms to inquire about other patient’s experiences, views and suggestions about a particular medical condition or medical drugs. Patients are no longer limited to getting this information from known family members or a particular medical doctor allowing them to make a better-informed decision. 
 
-![alt text](prediction.png)
+A medical drug is first tested and evaluated before its approval, but there are still instances where the drug must be withdrawn from the market due to some unexpected side effects. These unexpected side effects are often reported online review sites, healthcare web forums and discussion boards. However, the unstructured textual nature of the reviews was often time consuming for healthcare professionals and difficult to digest in a timely manner. The emergence of Natural Language Processing (NLP) and Sentiment Analysis has made big impact in the industry by allowing them to identify, extract and make use of subjective information. 
+
+For this project, we will be using Natural Language Processing techniques to evaluate patient’s reviews and ratings of medical conditions and drugs. 
 
 
 ---
@@ -37,47 +39,36 @@ For this project, we will be using Natural Language Processing techniques to eva
 ### Data
 
 
-The data is from UCI Machine Learning Repository. 
+The Drug Reviews dataset is taken from the UCI Machine Learning Repository. This Dataset provides patient reviews on specific drugs along with related conditions and a 10-star patient rating reflecting the overall patient satisfaction. The data was obtained by crawling online pharmaceutical review sites. The Drug Review Data Set is of shape (161297, 7) i.e. It has 7 features including the review and 161297 Data Points or entries.
 
-To access and view a detailed description of the dataset, [UCI Hepatitis Data]([https://archive.ics.uci.edu/ml/datasets/hepatitis])
+To access and view a detailed description of the dataset, [UCI Drug Reviews]([https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29])
 
-[CLICK HERE]([https://www.kaggle.com/mathchi/churn-for-bank-customers](https://archive.ics.uci.edu/ml/datasets/hepatitis))
+[CLICK HERE]([https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29])
 
 Attribute Information:
 
-1. Class: DIE, LIVE
-2. AGE: 10, 20, 30, 40, 50, 60, 70, 80
-3. SEX: male, female
-4. STEROID: no, yes
-5. ANTIVIRALS: no, yes
-6. FATIGUE: no, yes
-7. MALAISE: no, yes
-8. ANOREXIA: no, yes
-9. LIVER BIG: no, yes
-10. LIVER FIRM: no, yes
-11. SPLEEN PALPABLE: no, yes
-12. SPIDERS: no, yes
-13. ASCITES: no, yes
-14. VARICES: no, yes
-15. BILIRUBIN: 0.39, 0.80, 1.20, 2.00, 3.00, 4.00
--- see the note below
-16. ALK PHOSPHATE: 33, 80, 120, 160, 200, 250
-17. SGOT: 13, 100, 200, 300, 400, 500,
-18. ALBUMIN: 2.1, 3.0, 3.8, 4.5, 5.0, 6.0
-19. PROTIME: 10, 20, 30, 40, 50, 60, 70, 80, 90
-20. HISTOLOGY: no, yes
+1. 'drugName' which is the name of the drug
+2. 'condition' which is the condition the patient is suffering from
+3. 'review' is the patients review
+4. 'rating' is the 10-star patient rating for the drug
+5. 'date' is the date of the entry 
+6. 'usefulcount' is the number of users who found the review useful
+
+
 
 
 
 ---
 
 
-### Machine Learning Algorithms
+### Natural Language Processing
 
 
-Machine Learning classification algorithms:
-1.	Logistic Regression
-2.	DecisionTree
+
+1.	Vader Sentiment Intensity Analyzer
+2.	TextBlob
+3.	NLTK Tokenizers
+4.	NLTK Corpus
 
 
 
@@ -91,12 +82,13 @@ Machine Learning classification algorithms:
 ### **TOOLS**
 
 The following tools were used in this project:
-1.	SQL, Python & Pandas to clean, explore and generate the final modeling data
+1.	Python & Pandas to clean and explore 
 2.	Matplotlib and Seaborn to generate visualizations
-3.	SKLearn to build Machine Learning classification models and measuring metrics
-4.	Streamlit to develop the app
-5.	Heroku to deploy the app
-6.	Docker to create a smooth pipeline
+3.	NLTK Tools such as Corpus, Tokenizers, Vader
+4.	TextBlob
+5.	Streamlit to develop the app
+6.	Heroku to deploy the app
+7.	Docker to create a smooth pipeline
 
 
 ---
