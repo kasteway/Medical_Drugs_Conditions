@@ -13,9 +13,9 @@ For this project, we will be using Natural Language Processing techniques to eva
 
 
 
-![alt text](Top 5 Drugs by Condition.png)
+[alt text](Top 5 Drugs by Condition.png)
 
-![alt text](Medical Choice Options.png)
+[alt text](Medical Choice Options.png)
 
 
 ---
