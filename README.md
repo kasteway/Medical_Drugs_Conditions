@@ -55,6 +55,8 @@ Attribute Information:
 6. 'usefulcount' is the number of users who found the review useful
 
 
+![alt text](dataSummary.png)
+
 
 
 
