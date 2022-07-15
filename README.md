@@ -86,9 +86,10 @@ The following tools were used in this project:
 2.	Matplotlib and Seaborn to generate visualizations
 3.	NLTK Tools such as Corpus, Tokenizers, Vader
 4.	TextBlob
-5.	Streamlit to develop the app
-6.	Heroku to deploy the app
-7.	Docker to create a smooth pipeline
+5.	ipywidgets interact for recommender
+6.	Streamlit to develop the app
+7.	Heroku to deploy the app
+8.	Docker to create a smooth pipeline
 
 
 ---
