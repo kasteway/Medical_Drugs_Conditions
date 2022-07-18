@@ -3,7 +3,7 @@
 
 ---
 
-### Abstract:
+### Abstract
 
 
 For this project, we will be using Natural Language Processing techniques to evaluate patient’s reviews and ratings of medical conditions and drugs. The data comes from UCI ML which contains over 160k reviews which was obtained by crawling online pharmaceutical review sites. Below is a sample of the data which has 0 to 10 ratings for a particular drug and condition as well as the comment left by the patient and the number of patients that found the drug useful.  
