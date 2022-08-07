@@ -36,7 +36,7 @@ For this project, we will be using Natural Language Processing techniques to eva
 
 
 
-### Data
+### Data:
 
 
 The Drug Reviews dataset is taken from the UCI Machine Learning Repository. This Dataset provides patient reviews on specific drugs along with related conditions and a 10-star patient rating reflecting the overall patient satisfaction. The data was obtained by crawling online pharmaceutical review sites. The Drug Review Data Set is of shape (161297, 7) i.e. It has 7 features including the review and 161297 Data Points or entries.
@@ -63,7 +63,7 @@ Attribute Information:
 ---
 
 
-### Natural Language Processing
+### Natural Language Processing:
 
 
 
