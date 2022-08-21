@@ -81,7 +81,7 @@ Attribute Information:
 
 
 
-### **TOOLS**
+### TOOLS:
 
 The following tools were used in this project:
 1.	Python & Pandas to clean and explore 
