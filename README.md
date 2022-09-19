@@ -89,7 +89,7 @@ The following tools were used in this project:
 3.	NLTK Tools such as Corpus, Tokenizers, Vader
 4.	TextBlob
 5.	ipywidgets interact for recommender
-6.	Streamlit to develop the app
+6.	Streamlit to develop the app.
 7.	Heroku to deploy the app.
 8.	Docker to create a smooth pipeline.
 
