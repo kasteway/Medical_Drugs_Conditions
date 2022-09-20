@@ -87,7 +87,7 @@ The following tools were used in this project:
 1.	Python & Pandas to clean and explore 
 2.	Matplotlib and Seaborn to generate visualizations.
 3.	NLTK Tools such as Corpus, Tokenizers, Vader
-4.	TextBlob
+4.	TextBlob.
 5.	ipywidgets interact for recommender
 6.	Streamlit to develop the app.
 7.	Heroku to deploy the app.
