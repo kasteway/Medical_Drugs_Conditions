@@ -84,7 +84,7 @@ Attribute Information:
 ### TOOLS:
 
 The following tools were used in this project:
-1.	Python & Pandas to clean and explore 
+1.	Python & Pandas to clean and explore.
 2.	Matplotlib and Seaborn to generate visualizations.
 3.	NLTK Tools such as Corpus, Tokenizers, Vader
 4.	TextBlob.
